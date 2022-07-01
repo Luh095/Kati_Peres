@@ -275,7 +275,7 @@ section .title::after{
 /*TELA BIOGRAFIA:*/
 .bio{
     padding: 0px 0px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .bio .max-width .bio-content .left img{
     width: 400px;
@@ -284,7 +284,11 @@ section .title::after{
     border: 6px;
 }
 .bio .bio-content .column .left{
-    width: calc(50% - 0px);
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    padding-left: 3%;
 }
 .bio .bio-content .left .text{
     font-size: 25px;
