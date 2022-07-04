@@ -95,7 +95,7 @@ html{
 /*ESTILIZAÇÃO HOME...INÍCIO:*/
 .home{
     display: flex;
-    background: url(../kati-peres-new/img/plano.jpeg) no-repeat center;
+    background: linear-gradient(#222,#aa91db,#ccc) no-repeat center;
     height: 100vh;
     color:#fff;
     min-height: 500px;
@@ -213,7 +213,7 @@ section .title::after{
 /*SESSÃO SOBRE:*/
 
 .about .title::after{
-    content: "Quem sou eu";
+    content: "Quem sou";
 }
 .about .max-width .about-content .left img{
     width: 400px;
@@ -283,12 +283,8 @@ section .title::after{
     object-fit: cover;
     border: 6px;
 }
-.bio .bio-content .column .left{
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5%;
-    padding-left: 3%;
+.bio .bio-content .column {
+    width: calc(50% - 20px);
 }
 .bio .bio-content .left .text{
     font-size: 25px;
@@ -299,7 +295,11 @@ section .title::after{
     text-align: justify;
 }
 .bio .bio-content .left{
-    width: 45%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    padding-left: 3%;
 }
 .bio .bio-content .right{
     width: 55%;
@@ -441,10 +441,10 @@ section .title::after{
     background: #aa91db;
 }
 .skills .skills-content .right .html::before{
-    width: 85%;
+    width: 55%;
 }
 .skills .skills-content .right .css::before{
-    width: 55%;
+    width: 85%;
 }
 .skills .skills-content .right .js::before{
     width: 50%;
